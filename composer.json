@@ -1,0 +1,18 @@
+{
+    "name": "yosmy/money",
+    "require": {
+        "php": ">=7.1",
+        "mongodb/mongodb": "~1",
+        "guzzlehttp/guzzle": "^6.2",
+        "respect/validation": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\": [
+                "src"
+            ]
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
